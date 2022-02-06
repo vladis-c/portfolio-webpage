@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "TODO app with SCSS",
+    description: `Classic TODO app for practicing pure JavaScript Code. This is my first project with SCSS styling, however`,
+    image: "/images/to-do.PNG",
+    tags: ["JavaScript", "SCSS"],
+    source: "unavailable",
+    visit: "https://github.com/vladis-c/to-do-scss",
+    id: 7,
+  },
+  {
     title: "Expenses App",
     description:
       "This application is a tool for two people leaving in one household, who share the expenses half-half and would like to track the monthly transactions. The users must login with Google Account to use the app",
