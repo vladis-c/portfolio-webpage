@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/ExpensesAppScreenshot.png",
     tags: ["React", "CSS", "Firebase"],
     source: "unavailable",
-    visit: "unavailable",
+    visit: "https://github.com/vladis-c/expenses-app-public",
     id: 0,
   },
   {
