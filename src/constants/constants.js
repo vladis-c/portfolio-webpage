@@ -1,12 +1,44 @@
-export const projects = [
+export const projects = [  
+  {
+    title: "A full-stack Booking app (at work)",
+    description: `Video appointment booking app with chat and photos. Firebase as database and Redux as state-management. Stripe for payments, Finnish Trust Network for authentication, Voucherify for validating and redeeming vouchers. Sentry is wrapping the app to monitor life-time errors, Agora for video calls
+    I was a leading developer of this app at my recent workplace, I worked on UX and the whole overlook of the app, code structure and selecting of the services and libraries.
+    App is available on AppStore and Google Play store.
+    App goes together with Admin portal.`,
+    image: "/images/RNHHApp.jpeg",
+    tags: ["TypeScript", "React Native", "Firebase", "Express",],
+    source: "",
+    visit: "",
+    id: 6,
+  },
+  {
+    title: "A full-stack admin portal for a booking app (at work)",
+    description: `Admin portal for video appointment booking app with chat and photos. Firebase as database and Redux as state-management. Firebase Auth for authentication, Agora for video calls, Voucherify for issuing vouchers.
+    Admin portal has customised calendar from DevExpress, search functionalities and filters, tables with appointments and detailed information. Admin portal is has responsive design.
+    Portal goes together with Booking app.`,
+    image: "/images/NextHHPortal.jpeg",
+    tags: ["TypeScript", "Next.js", ,"Firebase", "Express", "MaterialUI"],
+    source: "",
+    visit: "",
+    id: 7,
+  },
+  {
+    title: "Own Youtube courses",
+    description: `Planning to launch own Youtube channel, where I teach technologies I had issues with to show the easy solutions for others. Follow my github for upcoming information, and check repositories.`,
+    image: "",
+    tags: [],
+    source: "",
+    visit: "",
+    id: 6,
+  },
   {
     title: "TODO app with SCSS",
     description: `Classic TODO app for practicing pure JavaScript Code. This is my first project with SCSS styling, however`,
     image: "/images/to-do.PNG",
     tags: ["JavaScript", "SCSS"],
-    source: "unavailable",
+    source: "",
     visit: "https://github.com/vladis-c/to-do-scss",
-    id: 7,
+    id: 8,
   },
   {
     title: "Expenses App",
@@ -14,7 +46,7 @@ export const projects = [
       "This application is a tool for two people leaving in one household, who share the expenses half-half and would like to track the monthly transactions. The users must login with Google Account to use the app",
     image: "/images/ExpensesAppScreenshot.png",
     tags: ["React", "CSS", "Firebase"],
-    source: "unavailable",
+    source: "",
     visit: "https://github.com/vladis-c/expenses-app-public",
     id: 0,
   },
@@ -24,7 +56,7 @@ export const projects = [
       "Simple weather app that shows current weather in current location. If user wants, there is a search by city to find other location weather. Weather is displayed for current day and next 5 days",
     image: "/images/WeatherAppScreenshot.PNG",
     tags: ["React", "JavaScript", "OpenWeather API", "CSS"],
-    source: "unavailable",
+    source: "",
     visit: "https://github.com/vladis-c/weather-app",
     id: 1,
   },
@@ -71,27 +103,30 @@ export const projects = [
   {
     title: "Randomizer Game",
     description: `My very first project build on plain JavaScript. It is a randomiser game. Rules are simple: give range of numbers, the computer will generate a random number. The task of the user is to guess from 5 guesses`,
-    image: "unavailable",
+    image: "",
     tags: ["JavaScript", "CSS"],
-    source: "unavailable",
+    source: "",
     visit: "https://github.com/vladis-c/randomizergame",
     id: 5,
-  },
-  {
-    title: "JS expenses App",
-    description: `My second project build on plain JavaScript. Expenses app for two people living together, who share the expenses`,
-    image: "unavailable",
-    tags: ["JavaScript", "CSS"],
-    source: "unavailable",
-    visit: "https://github.com/vladis-c/tableofsharedexpences",
-    id: 6,
   },
 ]
 //Change to months timeline
 export const TimeLineData = [
-  { date: "Summer 2021", text: "Started my journey with JavaScript, HTML and CSS" },
+  {
+    date: "Summer 2021",
+    text: "Started my journey with JavaScript, HTML and CSS",
+  },
   { date: "Autumn 2021", text: "Online Courses on JS and React" },
   { date: "Autumn 2021", text: "First JS and React projects" },
-  { date: "January 2022", text: "Starting a new journey as a student of coding school" },
-  { date: "2022", text: "Becoming a Full-stuck developer" },
+  {
+    date: "January 2022",
+    text: "Starting a new journey as a student of coding school",
+  },
+  {
+    date: "March 2022",
+    text: "First Full-stuck Developer role at Hammashelppi, Finland",
+  },
+  { date: "November 2022", text: "Own Youtube courses on coding" },
+  { date: "end 2022 - beginning 2023", text: "New challenges... New role..." },
+  { date: "Spring 2023", text: "Certified AWS cloud developer" },
 ]

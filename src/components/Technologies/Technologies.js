@@ -20,11 +20,16 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am using frontend technologies in my projects. <br />
-      I touched some backend and databases during my short coder career path.{" "}
+      I work with different kind of technologies. <br />
+      Front-end is my major, but I implemented a lot of stuff using backend,
+      databases and cloud.
       <br />
-      At the moment I am a student in online school, and there is coming more to
-      learn like cloud services, toolkits and databases.
+      At the moment I am a Juniour Software Developer, I learn new stack
+      everyday and am about to launch my own courses of coding on topics that
+      were complicated to me.
+      <br />
+      I work with systems like Stripe, Agora, Finnish Trust Network,
+      Voucherify, Twilio.
     </SectionText>
     <List>
       <ListItem>
@@ -32,9 +37,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
-            JavaScript <br />
-            TypeScript <br />
-            React.js <br />
+            TypeScript, JavaScript <br />
+            React Native <br />
+            React <br />
             Next.js
           </ListParagraph>
         </ListContainer>
@@ -42,18 +47,28 @@ const Technologies = () => (
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Backend</ListTitle>
+          <ListTitle>Backend, Cloud</ListTitle>
           <ListParagraph>
             Node.js <br />
-            Firebase
+            Express.js <br />
+            Firebase <br />
+            Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiAws size="3rem" />
         <ListContainer>
-          <ListTitle>Cloud Services</ListTitle>
-          <ListParagraph>Studies are ongoing</ListParagraph>
+          <ListTitle>DevOps, Tools</ListTitle>
+          <ListParagraph>
+            GitHub <br />
+            Vercel <br />
+            Expo and EAS <br />
+            Redux, Redux Saga, Redux Persist <br />
+            Devtools <br />
+            Jest <br />
+            JUnit <br />
+          </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

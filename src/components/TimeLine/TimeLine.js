@@ -26,7 +26,7 @@ const Timeline = () => {
   const carouselRef = useRef()
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
+    return node.scrollTo({ left, behavior: "smooth" })
   }
 
   const handleClick = (e, i) => {
@@ -57,20 +57,16 @@ const Timeline = () => {
   // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
-      scroll(carouselRef.current, 0);
+      scroll(carouselRef.current, 0)
     }
 
-    window.addEventListener('resize', handleResize);
-  }, []);
+    window.addEventListener("resize", handleResize)
+  }, [])
 
   return (
     <Section id="about">
-      <SectionDivider/> <br />
-      <SectionTitle>About me</SectionTitle>
-      <SectionText>
-        <br />
-        Perfect combination of business, design and programming mind
-      </SectionText>
+      <SectionDivider /> <br />
+      <SectionTitle>My timeline</SectionTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <Fragment>
           {TimeLineData.map((item, index) => (
@@ -138,7 +134,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      
     </Section>
   )
 }

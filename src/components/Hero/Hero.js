@@ -1,5 +1,4 @@
 import React from "react"
-
 import {
   Section,
   SectionText,
@@ -15,7 +14,7 @@ const Hero = (props) => (
         Welcome to <br /> to my portfolio
       </SectionTitle>
       <SectionText>
-        I am an inspired currently studying future full-stack developer
+        I am an inspired full-stack developer - a perfect combination of technical knowledge and business background
       </SectionText>
       <Button onClick={() => window.location="https://github.com/vladis-c"}>GITHUB</Button>
     </LeftSection>
