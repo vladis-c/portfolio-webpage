@@ -19,7 +19,7 @@ const Header = () => (
       <Link href={"/"}>
         <a style={{ display: "flex", alignItems: "center", color: "wheat", marginBottom: "20px" }}>
           <GiAbstract080 size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Vladislav Cherkasheninov</Span>
         </a>
       </Link>
     </Div1>
