@@ -1,4 +1,15 @@
-export const projects = [  
+export const projects = [
+  {
+    title: "New Dark Weather App",
+    description: `A modern-designed user-friendly potentially real weather application by me, Vladislav Cherkasheninov made in October 2022. 
+    This app was created as a part of tech task for one of the tech companies. The actual task was to work with frontend part of the app and containerise it with Docker.
+    The app shows current location weather, has searching feature by city name, favourites and recents. The app is also responsive and can be opened on mobile devices as well as on PCs.`,
+    image: "/images/DarkWeatherApp.jpg",
+    tags: ["TypeScript", "Next.js", "MaterialUI", "Docker"],
+    source: "",
+    visit: "https://github.com/vladis-c/weatherapp-eficode",
+    id: 9,
+  },
   {
     title: "A full-stack Booking app (at work)",
     description: `Video appointment booking app with chat and photos. Firebase as database and Redux as state-management. Stripe for payments, Finnish Trust Network for authentication, Voucherify for validating and redeeming vouchers. Sentry is wrapping the app to monitor life-time errors, Agora for video calls
@@ -6,7 +17,7 @@ export const projects = [
     App is available on AppStore and Google Play store.
     App goes together with Admin portal.`,
     image: "/images/RNHHApp.jpeg",
-    tags: ["TypeScript", "React Native", "Firebase", "Express",],
+    tags: ["TypeScript", "React Native", "Firebase", "Express"],
     source: "",
     visit: "",
     id: 6,
@@ -17,7 +28,7 @@ export const projects = [
     Admin portal has customised calendar from DevExpress, search functionalities and filters, tables with appointments and detailed information. Admin portal is has responsive design.
     Portal goes together with Booking app.`,
     image: "/images/NextHHPortal.jpeg",
-    tags: ["TypeScript", "Next.js", ,"Firebase", "Express", "MaterialUI"],
+    tags: ["TypeScript", "Next.js", , "Firebase", "Express", "MaterialUI"],
     source: "",
     visit: "",
     id: 7,
@@ -29,7 +40,7 @@ export const projects = [
     tags: [],
     source: "",
     visit: "",
-    id: 6,
+    id: 8,
   },
   {
     title: "TODO app with SCSS",
@@ -124,9 +135,16 @@ export const TimeLineData = [
   },
   {
     date: "March 2022",
-    text: "First Full-stuck Developer role at Hammashelppi, Finland",
+    text: "First Junior Software Developer role at Hammashelppi, Finland",
   },
-  { date: "November 2022", text: "Own Youtube courses on coding" },
-  { date: "end 2022 - beginning 2023", text: "New challenges... New role..." },
+  {
+    date: "November 2022",
+    text: "First live applicaitons in Appstore and Google Play",
+  },
+  {
+    date: "December 2022",
+    text: "Promotion to a Software Developer in Hammashelppi, Finland",
+  },
+  { date: "Early 2023", text: "Own Youtube courses on coding" },
   { date: "Spring 2023", text: "Certified AWS cloud developer" },
 ]
